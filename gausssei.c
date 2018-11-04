@@ -1,13 +1,10 @@
-/*************** PROGRAM STARTS HERE ***************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-/********* DEFINED CONSTANTS *********/
 #define MAX        15
 #define MAXC       0
 
-/********* FUNCTION DECLARATION *********/
 void gausssei(float co[MAX][MAX], float con[MAX], float x[MAX], int n);
 void gaussjori(float co[MAX][MAX], float ai[MAX][MAX], int n);
 void matrixm1(float matrix[MAX][MAX], float con[MAX], int n, float mat[MAX]);
