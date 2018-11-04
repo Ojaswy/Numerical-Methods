@@ -48,7 +48,6 @@ int main(void)
    exit(0);
 }
 
-/********* FUNCTION DEFINITION *********/
 void gausssei(float co[MAX][MAX], float con[MAX], float x[MAX], int n)
 {
    int        i, j, check = 0;
