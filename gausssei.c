@@ -11,7 +11,6 @@ void matrixm1(float matrix[MAX][MAX], float con[MAX], int n, float mat[MAX]);
 void matrixm(float matrix[][MAX], float con[][MAX], int n, float mat[][MAX]);
 void diadomatrix(float matrix[MAX][MAX], int n);
 
-/********* MAIN STARTS HERE *********/
 int main(void)
 {
    int         i = 0, j, n;       //Declaration of variables in int
